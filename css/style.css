@@ -128,7 +128,18 @@ button {
   margin-left: 50px;
 }
 
+.icon-social {
+  display: inline;
+  margin-right: 11px;
+  fill: currentColor;
+  
+}
+
+
 .socials {
+  display:flex;
+  align-items: center;
+
   color: var(--text-page);
 
   text-decoration: none;
@@ -141,6 +152,7 @@ button {
 .socials:hover,
 .socials:focus {
   color: var(--hover-focus-color);
+  
 }
 
 /* Герой */
