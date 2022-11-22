@@ -358,6 +358,49 @@ button {
   text-align: center;
 }
 
+/* Постійні клієнти */
+
+.clients{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-link{
+  color:#AFB1B8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  
+}
+
+.clients-link:hover,
+.clients-link:focus{
+  color:var(--hover-focus-color);
+  border-color: var(--hover-focus-color);
+}
+
+.clients-logo{
+  margin-left: auto;
+  margin-right: auto;
+  fill: currentColor;
+}
+
+
+.clients-item{
+  display: flex;
+}
+
+.clients-item .clients-list+ .clients-list{
+  margin-left: 30px;
+}
+
+
+
+
 /* Підвал */
 
 .footer {
@@ -430,7 +473,7 @@ button {
   width: 44px;
   height: 44px;
   margin-top: 16px;
-  background-color:rgba(255, 255, 255, 0.1);;
+  background-color:rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   
 }
