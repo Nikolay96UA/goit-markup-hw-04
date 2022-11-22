@@ -285,6 +285,11 @@ button {
   
 }
 
+
+.messenger-team{
+  display:flex;
+}
+
 .social-links{
   color:#AFB1B8;
   display: flex;
@@ -309,7 +314,7 @@ button {
   fill: currentColor;
 }
 
-.social-team .social-links + .social-links {
+.messenger-team li + li {
   margin-left: 10px;
 }
 
@@ -393,6 +398,60 @@ button {
 .footer-margin .item:not(:last-child) {
   margin-bottom: 9px;
 }
+
+.footer-messenger{
+  padding-left: 70px;  
+}
+
+.come{
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height:1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.messenger{
+  display: flex;
+  
+}
+
+.messenger .messenger-list + .messenger-list {
+  margin-left: 10px;
+}
+
+.messenger-links{
+  color:#ffffff;
+  display: flex;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  margin-top: 16px;
+  background-color:rgba(255, 255, 255, 0.1);;
+  border-radius: 50%;
+  
+}
+
+.footer-icon{
+  margin-left: auto;
+  margin-right: auto;
+  fill: currentColor;
+}
+
+.messenger-links:hover,
+.messenger-links:focus{
+  background-color: var(--hover-focus-color);
+}
+
+.footer-page{
+  display: flex; 
+}
+
+
+
 /* Портфоліо */
 
 /* Фільрт */
@@ -426,6 +485,7 @@ button {
 .filter-button:focus {
   color: var(--hero-text);
   background-color: var(--hover-focus-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Портфоліо */
@@ -446,6 +506,11 @@ button {
 
   margin-right: 30px;
   margin-top: 30px;
+}
+
+.portfolio-list:hover,
+.portfolio-list:focus{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-list:nth-child(3n) {
